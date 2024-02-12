@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/styles.css">
+      <title>Challenge</title>
+    </head>
+    <body>
+       <header >
+          <img  src="./images/logo.png" alt="">
+       </header>
+       <main class="main">
+          <section>
+             <textarea id="campo-do-texto" class="input-texto" cols="60" rows="15" placeholder="Digite a mensagem a ser codificada"></textarea>
+              <div class="informacao">
+                 <ul class="mensagens-erro"></ul>
+              </div>
+              <div class="botoes">
+                 <button type="button" class="btn-codifi">Codificar</button>
+                 <button type="button" class="btn-decodifi">Decodificar</button>
+              </div>
+           </section>
+           <section class="container">
+              <textarea id="campo-do-codigo" class="resultado" cols="40" rows="29" placeholder=" " readonly></textarea>
+              <button type="button" class="invisivel btn-copiar">Copiar</button>
+           </section>
+       </main>
+       <footer>Desenvolvido por Douglas Pereira</footer>
+
+        <script src="js/criptografar.js"></script>
+        <script src="js/validacao.js"></script>
+        <script src="js/copiar.js"></script>
+    </body>
+  </html>
